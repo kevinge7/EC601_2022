@@ -4,7 +4,25 @@ This is Yuxi Ge
 My Google Drive link of the project is:
 https://drive.google.com/drive/folders/1r62L4vqJ0VW48UESgwRNF9T9rdG3diDS?usp=sharing
 
+I want to design software to analyze people's attitudes toward the vaccine during the pandemic. 
+As a government, I want to search “Pfizer” on Twitter through Twitter API to see what people think about Pfizer(Using Google NLP API).
+As a Moderna researcher, I want to search “Moderna vaccine” on Twitter through Twitter API to see what will people choose between Pfizer and Moderna. 
 
+### Module design:
+
+1. get input from users
+2. use Google NLP API to get the keywords
+3. Upload the keywords to Twitter through Twitter API
+4. Get results from Twitter and then upload these tweets to Google NLP API to process the data
+5. Output the result and return it to users. 
+
+### My users could be:
+Salesman
+Company manager 
+Researcher
+Consultant
+
+### Final Result: 
 
 Due to some reasons, GitHub won't let me upload file sizes of more than 25 MB. I uploaded my result file to google drive(link in readme).
 
@@ -14,5 +32,3 @@ https://drive.google.com/drive/folders/1r62L4vqJ0VW48UESgwRNF9T9rdG3diDS?usp=sha
 And then I run Google NLP to get sentiment scores about these tweets. The output file is named"score - Sheet1.csv" in the google drive folder with the same link above. 
 In this file, I only output the username and the sentiment score.
 And I think these can fully show us what do people think about vaccines. 
-
-
